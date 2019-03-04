@@ -1,0 +1,563 @@
+/*css init*/
+body,html,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,p,div,a,img,button {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #313131;
+	font-size: 13px;
+}
+
+.red {
+	color: #e00000;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.fr {
+	float: right;
+}
+
+.box {
+	overflow: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	color: #313131;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*header*/
+.header {
+	height: 52px;
+	line-height: 52px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	background-color: #fff;
+}
+
+.header .menu {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header .menu a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.header span{
+	display: block;
+	width: 30px;
+	height: 25px;
+	background: url(../images/index/common.png) no-repeat -7px 1px;
+	background-size: 220px 84px;
+}
+
+.header .logo > h1 {
+	text-align: center;
+	display: inline-block;
+ 	vertical-align: middle;
+}
+
+.header .logo > h1 > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.search {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.search > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.search span {
+	width: 25px;
+	height: 25px;
+	background-position: -30px -27px;
+}
+
+.car {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.car > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.car span {
+	display: block;
+	width: 38px;
+	height: 24px;
+	background-position: -48px 0;
+}
+
+.car .car-number {
+	position: absolute;
+	top: -11px;
+	right: -12px;
+	text-decoration: none;
+	font-style: normal;
+	color: #fff;
+	background-color: #e00000;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+/*通知栏*/
+.inform {
+	border-bottom: 1px solid #ddd;
+}
+
+.inform  a {
+	display: block;
+	color: #212121;
+	padding: 5px 10px;
+}
+
+/*头部侧边栏*/
+.top-menu {
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	left: -50000px;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 999;
+	transform: all .5;
+	padding: 20px;
+	overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.top-menu .user-wrap {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #efefef;
+}
+
+.top-menu .user {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/index/menu-logo.png) no-repeat center;
+	vertical-align: middle;
+}
+
+.top-menu .user-wrap > h1 {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.user-wrap > h1 > a {
+	color: #000;
+	line-height: 40px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.menu-list {
+	margin: 10px 0;
+}
+
+.menu-list a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.plus {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/index/plus-menu.png);
+	float: right;
+}
+
+.minus {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/index/minus-menu.png);
+	float: right;
+}
+
+.menu-list .panel-default > .panel-heading {
+	background-color:  #fff;
+}
+
+.menu-title {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.panel, .panel-body {
+	border: none!important;
+}
+
+.menu-child {
+	padding-left: 15px;
+}
+
+.menu-child > li {
+	height: 35px;
+	line-height: 35px;
+}
+
+.menu-child a {
+	color: #000;
+	font-size: 12px;
+}
+
+.identifying {
+	float: right;
+	display: block;
+	background-color: #F5D6D6;
+	color: #CC6600;
+	height: 22px;
+	line-height: 22px;
+	padding: 1px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+.hot {
+	position: absolute;
+	top: 9px;
+	right: 30px;
+	width: 24px;
+	height: 10px;
+	background: url(../images/index/icon-hot.gif) no-repeat center;
+}
+
+.icon-text {
+	position: absolute;
+  right: 30px;
+  top: 0px;
+  color: #FF0000;
+  font-size: 12px;
+  text-shadow: 0px 0px 5px rgba(255, 204, 0, 1);
+}
+
+.relative {
+	position: relative;
+}
+
+.middle-title {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.menu-list-middle, .menu-list-bottom {
+	padding-left: 15px;
+	line-height: 35px;
+}
+
+.menu-list-middle .skirt {
+	color: #333;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.menu-list-middle .icon::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.menu-list-middle .skirt::before {
+	background: url(../images/index/icon-menuQunzi.png) no-repeat center;
+}
+
+.menu-list-middle .jacket::before {
+	background: url(../images/index/icon-menuShangyi.png) no-repeat center;
+}
+
+.menu-list-middle .overcoat::before {
+	background: url(../images/index/icon-menuWaitao.png) no-repeat center;
+}
+
+.menu-list-middle .trousers::before {
+	background: url(../images/index/icon-menuKuzi.png) no-repeat center;
+}
+
+.menu-list-middle .shoes::before {
+	background: url(../images/index/icon-menuXie.png) no-repeat center;
+}
+
+.menu-list-middle .res::before {
+	background: url(../images/index/icon-menuXiaowu.png) no-repeat center;
+}
+
+.menu-list-bottom .email {
+	width: 75%;
+	color: #b2b2b2;
+	font-size: 12px;
+	border: 1px solid #ddd;
+	padding: 8px 10px 8px 12px;
+	height: 38px;
+	border-radius: 3px;
+	outline: none;
+	vertical-align: middle;
+}
+
+.email-btn {
+	width: 23%;
+	background-color: #131313;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+}
+
+.email-btn::before {
+	content: "\f003";
+	font-family: 'fontawesome';
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/*遮罩层*/
+.mask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(34, 34, 34, .5);
+	z-index: 998;
+	display: none;
+}
+
+.menu-close {
+	position: fixed;
+	right: 12%;
+	bottom: 50%;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: rgba(0, 0, 0, .8);
+	z-index: 9999;
+	text-align: center;
+}
+
+.menu-close::before {
+	content: "\f053";
+	font-family: 'fontawesome';
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*返回顶部按钮*/
+.top {
+  position: fixed;
+  right: 2px;
+  bottom: 15%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  opacity: .6;
+  background-color: #000;
+  text-align: center;
+  z-index: 99;
+  display: none;
+}
+
+.top > a {
+  text-decoration: none;
+}
+
+.top > a::before {
+  content: "\f077";
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 28px;
+}
+
+/*chat小图标*/
+.min-chat > a, .top > a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*关键词搜索*/
+.keyword {
+	display: none;
+}
+
+.keyword form {
+	padding-left: 3px;
+}
+
+.kw-btn {
+	width: 100%;
+	border: none;
+	height: 50px;
+	background: #fff;
+	outline: none;
+}
+
+.kw-btn::before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	vertical-align: middle;
+	background: url(../images/index/common.png) no-repeat -30px -27px;
+	background-size: 220px 84px;
+}
+
+.kw-input {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: #b2b2b2;
+	height: 38px;
+	width: 100%;
+	font-size: 12px;
+	outline: none;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.pr-0 {
+	padding-right: 0;
+}
+
+.pl-15 {
+	padding-left: 15px;
+}
+
+.kw-cancel {
+	color: #212121;
+	font-size: 13px;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.kw-cancel:hover {
+	text-decoration: none;
+	color: #212121;
+}
+
+/*页脚*/
+.footer {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd; 
+  border-top: 1px solid #ddd;
+}
+
+.footer a {
+  font-size: 13px;
+  color: #000;
+}
+
+.facebook, .twitter, .instagram, .chat, .time, .email, .phone {
+  padding-left: 40px;
+  margin: 5px 0;
+}
+
+.footer a::before {
+  font-family: FontAwesome;
+  font-size: 12px;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  margin: 5px 5px 0 0;
+  line-height: 20px;
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  background: #000;
+  border-radius: 50%;
+}
+
+.facebook > a::before {
+  content: "\f09a";
+}
+
+.twitter > a::before {
+  content: "\f099";
+}
+
+.instagram > a::before {
+  content: "\f16d";
+}
+
+.chat > a::before {
+  content: "\f0e5";
+}
+
+.email > a::before {
+  content: "\f0e0";
+}
+
+.phone > a::before {
+  content: "\f095";
+}
+
+.time > a::before {
+  content: "\f0c0";
+}
+
+/*支付方式*/
+.pay img {
+  width: 149px;
+  height: 26px;
+  margin: 10px auto;
+}
+
+.pay p {
+  font-size: 8px;
+  color: #000;
+  margin: 5px 0;
+}
+
+/*chat小图标*/
+.min-chat {
+  position: fixed;
+  right: 2px;
+  bottom: 22%;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  background: url(../images/index/icon-chat-us.png) no-repeat center;
+}

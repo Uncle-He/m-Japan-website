@@ -1,0 +1,99 @@
+.collect-wrap {
+	min-height: 400px;
+}
+
+.collect-wrap .breadcrumb {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+	margin-bottom: 0;
+}
+
+.breadcrumb a {
+	color: #313131;
+}
+
+.collect-wrap h3 {
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+	clear: both;
+}
+
+.collect-caption {
+	height: 32px;
+	line-height: 32px;
+	font-size: 13px;
+	background-color: #f5f5f5;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-top: 10px;
+}
+
+.collect p {
+	color: #7F7F7F;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.list-pro-item .item-img {
+	padding: 15px 0 0 30px;
+}
+
+.list-pro-item .item-img a {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+.item-text {
+	position: relative;
+}
+
+.item-caption {
+	padding-top: 15px;
+}
+
+.item-caption a {
+	display: block;
+	color: #060606;
+	font-size: 12px;
+	width: 280px;
+	height: 48px;
+	overflow: hidden;
+	white-space: inherit;
+	text-overflow: ellipsis;
+}
+
+.item-arrowhead {
+	text-align: right;
+	margin-right: 16px;
+}
+
+.item-arrowhead a {
+	color: #5D5D5D;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.item-money {
+	margin-top: 20px;
+}
+
+.item-money a {
+	float: right;
+	color: #313131;
+	margin-right: 16px;
+}
+
+.item-money a::before {
+	content: "\f014";
+	font-family: 'fontawesome';
+	margin-right: 5px;
+}

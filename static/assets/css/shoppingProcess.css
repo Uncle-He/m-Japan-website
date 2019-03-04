@@ -1,0 +1,23 @@
+.breadcrumb {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+	margin-bottom: 0;
+}
+
+.breadcrumb a {
+	color: #313131;
+}
+
+.shopping-process-wrap {
+	margin-bottom: 10px;
+}
+
+.shopping-process-wrap h3 {
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+	clear: both;
+}

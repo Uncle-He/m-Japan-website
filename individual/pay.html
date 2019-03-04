@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Jpan</title>
+  <link rel="stylesheet" type="text/css" href="../static/assets/vendors/normalize/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../static/assets/vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../static/assets/vendors/swiper/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="../static/assets/css/public.css">
+  <link rel="stylesheet" type="text/css" href="../static/assets/css/pay.css">
+  <link rel="stylesheet" type="text/css" href="../static/assets/vendors/font-awesome/css/font-awesome.min.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <section class="box">
+    <!-- 头部 -->
+    <div class="header">
+      <div class="row header-wrap">
+        <div class="col-xs-4">
+          <!-- menu -->
+          <div class="menu">
+            <a href="javascript:;">
+              <span></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="logo">
+            <h1>
+              <a href="index.html">
+                <img src="../static/assets/images/index/header_logo.png">
+              </a>
+            </h1>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="search">
+            <a href="javascript:;">
+              <span></span>
+            </a>
+          </div>
+          <div class="car">
+            <a href="javascript:;">
+              <span></span>
+              <em class="car-number">0</em>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 关键词搜索 -->
+      <div class="row keyword">
+        <div class="col-xs-2 p-0 pl-15">
+          <button class="kw-btn"></button>
+        </div>
+        <div class="col-xs-7 pr-0">
+          <form action="" method="">
+            <input class="kw-input" type="text" name="kw-search" placeholder="キーワードを入力してください">
+          </form>
+        </div>
+        <div class="col-xs-3 p-0 text-left">
+          <a class="kw-cancel" href="javascript:;">キャンセル</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 头部侧边栏 -->
+    <div class="top-menu">
+      <div class="user-wrap">
+        <span class="user"></span>
+        <h1><a href="#">ログイン/新規登録</a></h1>
+      </div>
+      
+      <ul class="menu-list">
+        <li>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    新入荷
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                    SALE
+                    <span class="plus"></span>
+                    <span class="identifying">値安い</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li class="relative">
+                      <a href="#">タイムセール</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">SALE</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">                  
+                    森ガールファッション
+                    <span class="plus"></span>
+                    <span class="identifying">NEW</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">森ガールワンピース</a></li>
+                    <li><a href="#">森ガールトップス</a></li>
+                    <li><a href="#">森ガールアウター</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="menu-list-middle menu-list">
+        <li>
+          <div class="middle-title">カテゴリ</div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3" class="skirt icon">     
+                    ワンピース
+                    <span class="plus"></span>
+                    <span class="identifying">TOP</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">エレガントワンピース</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">カジュアルワンピース</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">ニットワンピース</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">セクシーワンピース</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">OL/フォーマルワンピース</a></li>
+                    <li class="relative">
+                      <a href="#">レース/刺繍ワンピース</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">レトロワンピース</a></li>
+                    <li><a href="#">ロングワンピース</a></li>
+                    <li><a href="#">ミニワンピース</a></li>
+                    <li><a href="#">シャツワンピース</a></li>
+                    <li><a href="#">ビーチワンピース</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li> 
+        <li>
+          <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4" class="jacket icon">                       
+                    トップス
+                    <span class="plus"></span>
+                    <span class="identifying">お洒落UP</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">ニット/セーター</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">カットソー</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">シャツ</a></li>
+                    <li class="relative">
+                      <a href="#">ブラウス</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">チュニック</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">デニムシャツ</a></li>
+                    <li><a href="#">タンクトップ</a></li>
+                    <li><a href="#">Tシャツ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5" class="overcoat icon">                       
+                    アウター
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">コート</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">トレンチコート</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">ムートンコート</a></li>
+                    <li class="relative">
+                      <a href="#">ダウンコート</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">カーディガン</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">ブルゾン</a></li>
+                    <li><a href="#">パーカー</a></li>
+                    <li><a href="#">ジャケット</a></li>
+                    <li><a href="#">スーツ</a></li>
+                    <li><a href="#">ケープ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion6" href="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6" class="trousers icon">                       
+                    ボトムス
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">スカート</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">スキニージーンズ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">デニムパンツ</a></li>
+                    <li class="relative">
+                      <a href="#">ガウチョパンツ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">ショートパンツ</a></li>
+                    <li><a href="#">オールインワン</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion7" href="#collapseOne7" aria-expanded="true" aria-controls="collapseOne7" class="shoes icon">                       
+                    シューズ
+                    <span class="plus"></span>
+                    <span class="identifying">激売中</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">ブーツ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">パンプス</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">フラットシューズ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">スニーカー</a></li>
+                    <li><a href="#">スリッパ</a></li>
+                    <li><a href="#">サンダル</a></li>
+                    <li><a href="#">ウェッジソール</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion8" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion8" href="#collapseOne8" aria-expanded="true" aria-controls="collapseOne8" class="res icon">                       
+                    小物
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">バッグ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">スカーフ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">アクセサリー</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li><a href="#">ハット</a></li>
+                    <li><a href="#">腕時計</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion9" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion9" href="#collapseOne9" aria-expanded="true" aria-controls="collapseOne9" class="res icon">                       
+                    特集
+                    <span class="plus"></span>
+                    <span class="identifying">お勧め</span>    
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">All</a></li>
+                    <li class="relative">
+                      <a href="#">セットアップ</a>
+                      <span class="hot"></span>
+                    </li>
+                    <li class="relative">
+                      <a href="#">セレブ愛用</a>
+                      <span class="icon-text">人気上昇中</span>
+                    </li>
+                    <li><a href="#">水着</a></li>
+                    <li><a href="#">下着</a></li>
+                    <li><a href="#">子供服</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="menu-list-bottom menu-list">
+        <li>
+          <div class="middle-title">メニュー</div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion10" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion10" href="#collapseOne10" aria-expanded="true" aria-controls="collapseOne10" class="jacket icon">                       
+                    HASSYONについて
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">
+                    <li><a href="#">HASSYONの紹介</a></li>
+                    <li><a href="#">会社案内</a></li>
+                    <li><a href="#">特定商取引法表記</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">当サイト利用規約</a></li>
+                    <li><a href="#">知的財産</a></li>
+                    <li><a href="#">会員サービスのご案内</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel-group" id="accordion11" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title menu-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion11" href="#collapseOne11" aria-expanded="true" aria-controls="collapseOne11" class="skirt icon">     
+                    ご利用ガイド
+                    <span class="plus"></span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="menu-child">             
+                    <li><a href="#">よくあるご質問一覧</a></li>
+                    <li><a href="#">よくあるエラーと解決方法</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="menu-list-bottom menu-list">
+        <li>
+          <div class="middle-title">割引クーポンプレゼント!</div>
+        </li>
+        <li>
+          <form action="" method="">
+            <input class="email" type="text" name="email" placeholder="メールアドレスを入力してください">
+            <button class="email-btn"></button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 头部侧边栏遮罩层 -->
+    <div class="mask">
+      <div class="menu-close"></div>
+    </div>
+
+    <!-- 通知栏 -->
+    <div class="inform">
+      <div class="container">
+        <marquee direction="left" truespeed="truespeed" behavior="scroll" speed="3">
+          <a href="#">新規会員登録（無料）600円OFF！また、8千円以上500円OFF★1.6万円以上1500円OFF ★2.5万円以上3500円OFF★最強値下げ8999円以上ご購入で送料無料+ポイント5倍、お見逃しなく！</a>
+        </marquee>
+      </div>
+    </div>
+
+    <!-- 支付方式内容 -->
+    <div class="pay-wrap">
+      <div class="col-xs-12 p-0">
+        <ol class="breadcrumb">
+          <li><a href="../index.html">ホーム</a></li>
+          <li class="active">お支払い方法</li>
+        </ol>
+      </div>
+      <h3>お支払い方法</h3>
+      <div class="pay-inner">
+        <p>クレジットカード</p>
+        <p>以下のクレジットカードがご利用いただけます。</p>
+        <p class="pay-img">
+          <img src="../static/assets/images/pay/bottom-payment.jpg">
+        </p>
+        <p>ご提示：クレジットカード決済の場合は、国際取引手数料について、為替レート差額は３％ー５％です。</p>
+      </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="facebook">
+            <a href="#">Facebook</a>
+          </div>
+          <div class="twitter">
+            <a href="#">Twitter</a>
+          </div>
+          <div class="instagram">
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="chat">
+            <a href="#">Chat</a>
+          </div>
+          <div class="email">
+            <a href="mailto:sales@hassyou.com">sales@hassyou.com</a>
+          </div>
+          <div class="phone">
+            <a href="#">110</a>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="time">
+            <a href="#">電話受付時間帯（月～金）：10時～17時 ※土日・祝日は定休日です。</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 支付方式 -->
+    <div class="pay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <img src="../static/assets/images/index/index-bottom.png">
+            <p>COPYRIGHT©2016 HASSYON, ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- chat小图标 -->
+    <div class="min-chat">
+      <a href="#"></a>
+    </div>
+
+    <!-- 返回顶部小图标 -->
+    <div class="top">
+      <a href="javascript:;">
+      </a>
+    </div>
+  </section>
+  <script src="../static/assets/vendors/jquery/jquery-1.12.4.min.js"></script>
+  <script src="../static/assets/js/public.js"></script>
+</body>
+</html>

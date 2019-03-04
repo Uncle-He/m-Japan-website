@@ -1,0 +1,65 @@
+.change-wrap {
+	min-height: 500px;
+	padding: 10px;
+}
+
+.breadcrumb {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.breadcrumb a {
+	color: #313131;
+}
+
+.change-wrap h3 {
+	border-bottom: 2px solid #000;
+	margin: 0 10px 10px 0;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 3px;
+	clear: both;
+}
+
+.change-email {
+	color: #999;
+	font-size: 13px;
+}
+
+.change-email h2 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.change-caption {
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.change-wrap input {
+	color: #b2b2b2;
+	border: 1px solid #ddd;
+	padding: 8px 10px 8px 12px;
+	height: 38px;
+	border-radius: 3px;
+	outline: none;
+	display: block;
+	width: 100%;
+}
+
+.change-wrap button {
+	width: 100%;
+	margin-top: 20px;
+	background-color: #131313;
+	border-radius: 2px;
+	color: #fff;
+	text-align: center;
+	outline: none;
+	border: none;
+	height: 42px;
+	line-height: 42px;
+}

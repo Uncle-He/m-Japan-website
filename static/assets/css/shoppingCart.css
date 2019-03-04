@@ -1,0 +1,194 @@
+.shopping-cart .back{
+	margin: 10px;
+}
+
+.back a {
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+	background-color: #000;
+	padding: 3px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.all-del {
+	text-align: right;
+	border-top: 1px solid #ddd;
+	height: 32px;
+	line-height: 32px;
+}
+
+.all-del > a {
+	font-size: 12px;
+	color: #ADADAD;
+	padding-right: 15px;
+}
+
+.cart-parameter {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+}
+
+.parameter-img > a {
+	border: 1px solid #ddd;
+	display: block;
+}
+
+.parameter-img > a > img {
+	padding: 1px;
+}
+
+.parameter-text a {
+	color: #212121;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.parameter-text strong {
+	font-size: 13px;
+}
+
+.parameter-number select {
+	background-color: #fff;
+}
+
+.rdstr {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.red {
+	color: #e00000;
+}
+
+.gray {
+	color: #777;
+	text-decoration: line-through;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.del-wrap {
+	margin-top: 45px;
+}
+
+.del {
+	font-size: 12px;
+	color: #ADADAD;
+	padding-right: 15px;
+}
+
+.integral, .total {
+	padding: 10px;
+}
+
+.total {
+	border-top: 1px solid #ddd;
+}
+
+.total strong:nth-child(2) {
+	float: right;
+	font-size: 12px;
+}
+
+.shopping-more {
+	background-color: rgba(255,243,243,.6);
+	padding: 4px 0;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.shopping-more img {
+	width: 19px;
+	height: 18px;
+	display: inline-block;
+	margin-top: -5px;
+}
+
+.shopping-more p {
+	margin: 10px 0;
+}
+
+.shopping-more p.text-right a {
+	text-decoration: underline;
+	line-height: 20px;
+	margin: 5px 10px 0 0;
+	color: #212121;
+	font-size: 13px;
+}
+
+.altogether-text {
+	font-size: 16px;
+	color: #313131;
+	font-weight: 700;
+	padding: 10px;
+	display: inline-block;
+}
+
+.altogether-text span:nth-child(2) {
+	font-size: 14px;
+	color: #000;
+}
+
+.altogether-btn {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+.altogether-btn > button {
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	width: 130px;
+	background: url(../images/shoppingCart/checkout-gif.gif) no-repeat left top/100% 100%;
+}
+
+.correlation-title {
+	background-color: #222;
+	margin-bottom: 4px;
+}
+
+.correlation-title h3 {
+	display: inline-block;
+}
+
+.correlation-title > a {
+	display: inline-block;
+	float: right;
+	color: #fff;
+	text-decoration: underline;
+	font-size: 13px;
+	line-height: 22px;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.swiper-slide p > span.gray {
+	display: block;
+	text-align: right;
+}
+
+.shopping-cart .correlation-pro-wrap {
+	margin-top: 0;
+}
+
+.pro-list h3 {
+	background-color: #000;
+	margin-bottom: 5px;
+}
+
+.pro-list h3 a {
+	color: #fff;
+	font-size: 13px;
+	display: block;
+	padding: 10px 0 10px 10px; 
+}

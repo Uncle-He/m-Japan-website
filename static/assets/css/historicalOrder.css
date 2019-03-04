@@ -1,0 +1,61 @@
+body {
+	color: #313131;
+	font-size: 13px;
+}
+
+.historical-order-wrap {
+	min-height: 400px;
+}
+
+.revert-wrap {
+	position: relative;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+
+.revert {
+	position: absolute;
+	top: 0;
+	left: 35px;
+}
+
+.revert::before {
+	content: "\f053";
+	font-family: 'fontawesome';
+	border: 1px solid #ddd;
+	color: #797979;
+	padding: 8px 10px;
+	border-radius: 2px;
+}
+
+.revert-wrap h4 {
+	color: #000;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.historical-order-tab ul {
+	height: 36px;
+	line-height: 36px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.historical-order-tab li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #000;
+	font-size: 10px;
+}
+
+.historical-order-tab li.active {
+	background-color: #000;
+	color: #fff;
+}
+
+.tab-content {
+	padding: 10px;
+}

@@ -1,0 +1,528 @@
+/*导航条*/
+.breadcrumb {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin: 10px 0;
+}
+
+.breadcrumb a {
+	color: #FB7C7C;
+}
+
+/*轮播图*/
+.detailed-swpier .swiper-button-disabled{
+  display:none;
+}
+
+.detailed-swpier .swiper-button-prev,.detailed-swpier .swiper-button-next {
+	outline: none;
+	width: 35px;
+	height: 35px;
+	background-size: 35px;
+}
+
+.detailed-swpier .swiper-button-prev {
+	left: -14px;
+}
+
+.detailed-swpier .swiper-button-next {
+	right: -14px;
+}
+
+.number {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	background-color: rgba(255,0,0,0.5);
+	color: #fff;
+	padding: 0 5px;
+}
+
+/*产品描述*/
+.detailed-title {
+	margin: 10px auto;
+}
+
+.detailed-title > h1 {
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #313131;
+	font-weight: 400;
+}
+
+.product-describe {
+	margin: 10px 0;
+	clear: both;
+}
+
+.product-describe > .describe-left {
+	display: inline-block;
+}
+
+.describe-left > span {
+	display: inline-block;
+	width: 93px;
+	height: 17px;
+	background-size: 93px 117px;
+	background-image: url(../images/detailed/review_2.png);
+	background-position: 0 -101px;
+}
+
+.product-describe > .describe-right {
+	float: right;
+}
+
+.describe-right > span {
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	background-color: #6dbe14;
+	border-radius: 2px;
+	padding: 3px 10px;
+	vertical-align: middle;
+}
+
+.reference-price span:nth-child(1) {
+	color: #777;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.reference-price span:nth-child(2) {
+	float: right;
+	font-size: 13px;
+	color: #777;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+
+.sell-price span:nth-child(1), .sell-price span:nth-child(2) {
+	font-size: 14px;
+	font-weight: 700;
+	color: #e00000;
+}
+
+.sell-price span:nth-child(2) {
+	float: right;
+}
+
+.product-number span:nth-child(1), .product-number span:nth-child(2) {
+	color: #313131;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.product-number span:nth-child(1) > em {
+	font-style: normal;
+}
+
+.product-number span:nth-child(2) {
+	float: right;
+}
+
+.add-car-wrap {
+	margin: 10px 0;
+}
+
+.add-car, .gas {
+	border: 1px solid #ddd;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+}
+
+.add-car > a {
+	display: block;
+	font-size: 12px;
+	color: #212121;
+}
+
+.add-car > a::before {
+	content: "\f004";
+	font-family: 'fontawesome';
+	color: #ED6277;
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+.gas {
+	position: relative;
+}
+
+.gas::before {
+	content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -4px;
+  margin-top: -3px;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 5px;
+  height: 5px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  background: #fff;
+}
+
+.detailed-parameter {
+	border: 1px solid #ddd;
+	margin: 10px 0;
+}
+
+.classify-color {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0 0 10px;
+}
+
+.classify-color span {
+	color: #313131;
+	font-size: 13px;
+}
+
+.select-color > label {
+  display: inline-block;
+  background-color: #eee;
+  padding: 5px 7px;
+  margin: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #313131;
+  font-weight: 400;
+}
+
+.select-color img {
+	width: 40px;
+	height: 53px;
+}
+
+.select-color .select {
+	background-color: #000;
+	color: #fff;
+}
+
+.shopping-number {
+	padding: 10px 0 0 10px;
+	margin: 10px 0;
+}
+
+.shopping-number > span {
+	display: block;
+	font-size: 13px;
+	color: #313131;
+	margin-bottom: 5px;
+}
+
+.shopping-number > div {
+	display: inline-block;
+}
+
+.down, .up {
+	width: 35px;
+	height: 35px;
+	background-color: #eee;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.num > input {
+	width: 50px;
+	height: 35px;
+	border: 1px solid #ccc;
+	margin: 0 5px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ccc;
+}
+
+.order {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+
+.order button {
+	outline: none;
+	border: none;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.add-car-btn {
+	background-color: #fb7c7c;
+	vertical-align: middle;
+}
+ 
+.add-car-btn > span {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	background: url(../images/detailed/sprite_product.png) no-repeat -46px 0;
+  background-size: 433px 30px;
+  vertical-align: middle;
+  margin-top: -7px;
+}
+
+.buy-now-btn {
+	background-color: #131313;
+	background: -webkit-linear-gradient(top, #313131, #131313);
+}
+
+.buy-now-btn::before {
+	content: "\f00c";
+	font-family: 'fontawesome';
+	margin-right: 5px;
+	font-size: 25px;
+}
+
+.option-title > .row {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.option-title > .row div {
+	font-size: 12px;
+	color: #212121;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	height: 40px;
+	line-height: 40px;
+}
+
+.option-title > .row div.active {
+	background-color: #000;
+	color: #fff;
+}
+
+.option-title > .row div:nth-child(2) {
+	border-left: none;
+}
+
+.pro-labor {
+	margin: 10px 0;
+}
+
+.pro-labor h2 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.pro-labor p {
+	margin: 10px 0;
+	font-size: 12px;
+	color: #313131;
+}
+
+.pro-labor table {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.correlation-wrap {
+	margin: 10px 0;
+}
+
+.correlation-wrap  .start {
+	display: inline-block;
+	width: 93px;
+	height: 17px;
+	background: url(../images/detailed/review_2.png) no-repeat 0 0;
+	background-size: 93px 117px;
+	vertical-align: text-bottom;
+}
+
+.start-number {
+	font-size: 12px;
+}
+
+.correlation, .comment {
+	border: 1px solid #e8e8e8;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin: 10px 0;
+	color: #212121;
+	background-color: #F5F5F5;
+}
+
+.comment {
+	border-left: none;
+}
+
+.selected {
+	background-color: #fff;
+	border-bottom: none;
+}
+
+/*评论留言*/
+.commentary {
+	display: none;
+}
+
+.commentary-start {
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+.commentary-start > h1 {
+	display: inline-block;	
+	padding-left: 12px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.stars {
+	display: inline-block;
+}
+
+.stars > span {
+	font-size: 17px;
+	color: #C7C7C7;
+}
+
+.stars .opt {
+	color: #FFB300;
+}
+
+.commentary input{
+  color: #b2b2b2;
+  border: 1px solid #ddd;
+  padding: 8px 10px 8px 12px;
+  height: 38px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+  outline: none;
+  font-size: 13px;
+}
+
+.commentary label {
+	font-size: 12px;
+  margin: 10px 0;
+  display: block;
+  color: #313131;
+  font-weight: 400;
+}
+
+.request {
+	color: #E73737;
+}
+
+.required-entry {
+	color: #b2b2b2;
+	width: 100%;
+	outline: none;
+	border: 1px solid #ddd;
+	padding: 8px 10px 8px 12px;
+}
+
+.commentary-btn {
+	display: block;
+	margin: 10px 0;
+	background-color: #313131;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	outline: none;
+	padding: 13px 0;
+	border: none;
+}
+
+.correlation-wrap {
+	display: none;
+}
+
+/*相关产品*/
+.correlation-pro-wrap h3 {
+	margin: 4px 0;
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+}
+
+.correlation-pro .item-img {
+	position: relative;
+}
+
+.correlation-pro .item-img .agio {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+  width: 30px;
+  background: #DD6768;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.correlation-pro p strong {
+	color: #e00000;
+	font-size: 13px;
+}
+
+.correlation-pro p span {
+	color: #000;
+	font-size: 12px;
+}
+
+.page-wrap {
+	height: 41px;
+	background-color: #F3F3F3;
+}
+
+.correlation-pro .swiper-pagination-correlation {
+	position: absolute;
+	bottom: 9px;
+	left: 40%;
+}
+
+.correlation-pro .swiper-button-next,.correlation-pro .swiper-button-prev {
+	top: 100%;
+	margin-top: -40px;
+	background-size: 12px;
+	outline: none;
+}
+
+.correlation-pro .swiper-button-next {
+	right: 50px;
+}
+
+.correlation-pro .swiper-button-prev {
+	left: 50px;
+}
+
+.correlation-pro .swiper-pagination-bullet-active {
+	background-color: #FC537B;
+}
+
+.day-top {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.day-top > img {
+	display: inline-block;
+	width: 110px;
+	height: 39px;
+}
+
+.correlation-pro-wrap, .today-top {
+	margin: 10px 0;
+}

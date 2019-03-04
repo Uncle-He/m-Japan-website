@@ -1,0 +1,191 @@
+/*折扣*/
+.discount {
+  margin: 5px 0;
+}
+.discount .discount-box {
+  padding: 0;
+}
+
+/*放假通知*/
+.notice a {
+  display: block;
+  width: 100%;
+}
+
+.notice h6 {
+  display: inline-block;
+  color: #000;
+  font-weight: 700;
+  font-size: 100%;
+}
+
+.notice span {
+  color: #000;
+  font-weight: 700;
+  font-size: 100%;
+  float: right;
+}
+
+/*分类*/
+.classify-title {
+  margin: 10px 0;
+}
+
+.classify h1 {
+  color: #000;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.classify-content a {
+  display: block;
+  width: 100%;
+}
+
+.classify-content .col-xs-6, .classify-content .col-xs-4 {
+  padding: 3px;
+}
+
+/*产品展示*/
+.product {
+  padding-bottom: 20px; 
+}
+
+.product .col-xs-12 {
+  padding: 3px;
+}
+
+.product-title {
+  margin: 10px 0;
+}
+
+.product-title h1 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.product-title a {
+  float: right;
+  color: #FF8080;
+  font-size: 12px;
+}
+
+.price {
+  text-align: center;
+}
+
+.money {
+  font-size: 13px;
+  color: #e00000;
+}
+
+.tax {
+  color: #000;
+  font-size: 12px;
+}
+
+.swiper-pagination-new {
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fc537b;
+}
+
+.underline {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.ranking .col-xs-6 {
+  padding: 4px 2px;
+}
+
+.sort-item {
+  position: relative;
+}
+
+.sort {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 47px;
+  height: 45px;
+}
+
+.no1 {
+  background: url(../images/index/no01.png) no-repeat center;
+}
+
+.no2 {
+  background: url(../images/index/no02.png) no-repeat center;
+}
+
+.no3 {
+  background: url(../images/index/no03.png) no-repeat center;
+}
+
+.no4 {
+  background: url(../images/index/no04.png) no-repeat center;
+}
+
+/*分类导航*/
+
+.product-nav .swiper-slide {
+  text-align: center;
+  border: 1px solid #FF8080;
+  height: 35px;
+  line-height: 35px;
+}
+
+.product-nav .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  color: #212123;
+}
+
+.product-nav .swiper-slide a.text-nav-active {
+  background-color: #FF8080;
+  color: #fff;
+}
+
+.like::before {
+  content: "\f004";
+  font-family: 'fontawesome';
+  margin: 0 5px;
+  color: #e00000;
+}
+
+.depreciate {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+  width: 30px;
+  background-color: #DD6768;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.product-nav .col-xs-4 {
+  padding: 3px;
+}
+
+.more {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.more > a {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #FF8080;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 100%;
+}

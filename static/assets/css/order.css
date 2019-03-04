@@ -1,0 +1,220 @@
+body {
+	color: #313131;
+	font-size: 13px;
+}
+
+.title-order {
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+}
+
+.explain {
+	padding: 15px;
+	color: #e00000;
+	border-bottom: 1px solid #ddd;
+}
+
+.name {
+	padding: 15px;
+	font-weight: 700;
+	border-bottom: 1px solid #ddd;
+}
+
+.name .col-xs-6 {
+	padding-left: 0;
+}
+
+.name p {
+	clear: both;
+	font-weight: 400;
+}
+
+.order-inner input {
+	color: #b2b2b2;
+	border: 1px solid #ddd;
+	padding: 8px 10px 8px 12px;
+	height: 38px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 3px;
+	outline: none;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+.mobile-phone, .e-mail, .retrieval, .address {
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.phone-title h1 {
+	font-weight: 700;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.mobile-phone input {
+	width: 30%;
+}
+
+.retrieval a {
+	display: block;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	font-weight: 300;
+	background-color: #000;
+	border-radius: 2px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.address .row {
+	margin-bottom: 10px;
+}
+
+.address select {
+	border: 1px solid #ddd;
+	padding: 8px;
+	width: 100%;
+	height: 38px;
+	margin-top: 5px;
+}
+
+.domicile {
+	padding: 15px;
+}
+
+.select-address .radio {
+	width: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+.add-address {
+	border-top: 1px solid #ddd;
+	display: none;
+}
+
+/*配送方式*/
+.dispatching-wrap h3, .detail h3 {
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+}
+
+.dispatching-wrap .radio {
+	width: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -5px 5px 0 0;
+	padding: 0;
+}
+
+.dispatching {
+	padding: 15px;
+}
+
+.dispatching label {
+	vertical-align: middle;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.detail-pro-img  a {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+.detail-pro {
+	padding: 10px;
+}
+
+.detail-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.detail-title a {
+	color: #212121;
+	text-decoration: underline;
+}
+
+.detail-num {
+	color: #313131;
+}
+
+.detail-pro p {
+	margin-top: 3px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.integral {
+	border-top: 1px solid #ddd;
+	padding: 10px;
+}
+
+.integral h1 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.integral input {
+	height: 29px;
+}
+
+.integral p {
+	color: #7f7f7f;
+}
+
+.preferential a {
+	display: block;
+	height: 29px;
+	line-height: 29px;
+	margin: 10px 0 10px 0;
+	background-color: #131313;
+	color: #fff;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.pro-total {
+	padding: 10px;
+}
+
+.b-t {
+	border-top: 1px solid #ddd;
+}
+
+.pro-total li {
+	border-bottom: 1px solid #ddd;
+	line-height: 30px;
+}
+
+.logistics a {
+	text-decoration: underline;
+}
+
+.order-btn {
+	display: block;
+	color: #fff;
+	width: 270px;
+	height: 70px;
+	border: none;
+	outline: none;
+	margin: 40px auto;
+	background: url(../images/shoppingCart/checkout-gif.gif) no-repeat center;
+}

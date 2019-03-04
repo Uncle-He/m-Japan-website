@@ -1,0 +1,48 @@
+body {
+	color: #313131;
+	font-size: 13px;
+}
+
+.integral-wrap {
+	min-height: 400px;
+}
+
+.integral-wrap .breadcrumb {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+	margin-bottom: 0;
+}
+
+.breadcrumb a {
+	color: #313131;
+}
+
+.integral-wrap h2 {
+	background-color: #222;
+	color: #fff;
+	font-size: 13px;
+	padding: 7px 10px;
+	clear: both;
+}
+
+.integral-wrap ul {
+	padding-left: 10px;
+}
+
+.integral-wrap ul li {
+	height: 25px;
+	line-height: 25px;
+}
+
+.integral-wrap table	{
+	border: 1px solid #ddd;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.integral-wrap table td {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
