@@ -19,51 +19,79 @@
 <body>
 	<section class="box">
     <!-- 头部 -->
-    <div class="header">
-      <div class="row header-wrap">
-        <div class="col-xs-4">
-          <!-- menu -->
-          <div class="menu">
-            <a href="javascript:;">
-              <span></span>
-            </a>
-          </div>
+    <div class="headerfix">
+      <!-- 头部广告 -->
+      <div class="top-banner">
+        <a href="#">
+          <img src="static/assets/images/index/banner.jpg">
+          <div class="down-time">
+            <span>0</span>
+            <span>0</span>
+            H
+            <span>0</span>
+            <span>0</span>
+            M
+            <span>0</span>
+            <span>0</span>
+            S
         </div>
-        <div class="col-xs-4">
-          <div class="logo">
-            <h1>
-              <a href="index.html">
-                <img src="../static/assets/images/index/header_logo.png">
+        </a>  
+      </div>
+      <!-- 头部菜单栏 -->
+      <div class="header">
+        <div class="row header-wrap">
+          <div class="col-xs-4">
+            <!-- menu -->
+            <div class="menu">
+              <a href="javascript:;">
+                <span></span>
               </a>
-            </h1>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="logo">
+              <h1>
+                <a href="index.html">
+                  <img src="static/assets/images/index/header_logo.png">
+                </a>
+              </h1>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="search">
+              <a href="javascript:;">
+                <span></span>
+              </a>
+            </div>
+            <div class="car">
+              <a href="javascript:;">
+                <span></span>
+                <em class="car-number">0</em>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-xs-4">
-          <div class="search">
-            <a href="javascript:;">
-              <span></span>
-            </a>
+        <!-- 关键词搜索 -->
+        <div class="row keyword">
+          <div class="col-xs-2 p-0 pl-15">
+            <button class="kw-btn"></button>
           </div>
-          <div class="car">
-            <a href="javascript:;">
-              <span></span>
-              <em class="car-number">0</em>
-            </a>
+          <div class="col-xs-7 pr-0">
+            <form action="" method="">
+              <input class="kw-input" type="text" name="kw-search" placeholder="キーワードを入力してください">
+            </form>
+          </div>
+          <div class="col-xs-3 p-0 text-left">
+            <a class="kw-cancel" href="javascript:;">キャンセル</a>
           </div>
         </div>
       </div>
-      <!-- 关键词搜索 -->
-      <div class="row keyword">
-        <div class="col-xs-2 p-0 pl-15">
-          <button class="kw-btn"></button>
-        </div>
-        <div class="col-xs-7 pr-0">
-          <form action="" method="">
-            <input class="kw-input" type="text" name="kw-search" placeholder="キーワードを入力してください">
-          </form>
-        </div>
-        <div class="col-xs-3 p-0 text-left">
-          <a class="kw-cancel" href="javascript:;">キャンセル</a>
+      <!-- 通知栏 -->
+      <div class="inform">
+        <div class="container">
+          <marquee direction="left" truespeed="truespeed" behavior="scroll" speed="3">
+            <a href="#">新規会員登録（無料）600円OFF！また、8千円以上500円OFF★1.6万円以上1500円OFF ★2.5万円以上3500円OFF★最強値下げ8999円以上ご購入で送料無料+ポイント5倍、お見逃しなく！</a>
+          </marquee>
         </div>
       </div>
     </div>
@@ -504,17 +532,8 @@
       <div class="menu-close"></div>
     </div>
 
-    <!-- 通知栏 -->
-    <div class="inform">
-      <div class="container">
-        <marquee direction="left" truespeed="truespeed" behavior="scroll" speed="3">
-          <a href="#">新規会員登録（無料）600円OFF！また、8千円以上500円OFF★1.6万円以上1500円OFF ★2.5万円以上3500円OFF★最強値下げ8999円以上ご購入で送料無料+ポイント5倍、お見逃しなく！</a>
-        </marquee>
-      </div>
-    </div>
-
     <!-- 物流信息内容 -->
-    <div class="logistics-wrap">
+    <div class="logistics-wrap distance">
     	<div class="col-xs-12 p-0">
         <ol class="breadcrumb">
           <li><a href="../index.html">ホーム</a></li>

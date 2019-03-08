@@ -7,17 +7,7 @@ $(function ($) {
     navigation: {
       nextEl: '.swiper-next',
       prevEl: '.swiper-prev',
-    },
-    //滑到最后一个隐藏前进按钮
-	 //  on: {
-	 //    slideChangeTransitionEnd: function(){
-	 //      if(this.isEnd){
-	 //        this.navigation.$nextEl.css('display','none');
-	 //      }else{
-	 //        this.navigation.$nextEl.css('display','block');  
-	 //      }
-	 //    },
-		// },
+    }
 	})
 
 	/*
