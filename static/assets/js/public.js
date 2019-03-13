@@ -10,7 +10,8 @@ $(function ($) {
 	});
 
 	// 顶部侧边菜单栏
-	topMenu();
+	var isSpread = false;
+	topMenu(isSpread);
 
 	// 顶部侧边菜单栏子元素展开与关闭的图标变化
 	topMenuIcon();
@@ -30,7 +31,9 @@ var getHeaderfix = function () {
 	distance.css("marginTop", headerfix.height() + "px");
 };
 
-var topMenu = function () {
+var topMenu = function (isSpread) {
+	console.log(isSpread);
+	var $body = $('body');
 	var $topMenuBtn = $(".menu > a");
 	var $topMenu = $(".top-menu");
 	var $mask = $(".mask");
@@ -39,17 +42,31 @@ var topMenu = function () {
 	$topMenuBtn.on("click", function () {
 		$topMenu.animate({left: "0"});
 		$mask.fadeIn();
+		isSpread = true;
+		affixScrollY(isSpread);
 	})
 
 	$mask.on("click", function () {
 		$topMenu.animate({left: "-=1000px"});
 		$mask.fadeOut();
+		isSpread = false;
+		affixScrollY(isSpread);
 	})
 
 	$close.on("click", function () {
 		$mask.fadeOut();
 		$topMenu.animate({left: "-=1000px"});
+		isSpread = false;
+		affixScrollY(isSpread);
 	})
+
+	var affixScrollY = function (isSpread) {
+		if (isSpread) {
+			$body.css("overflowY", "hidden");
+		} else {
+			$body.css("overflowY", "auto");
+		}
+	}
 };
 
 var topMenuIcon = function () {
