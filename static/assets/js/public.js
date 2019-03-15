@@ -32,7 +32,6 @@ var getHeaderfix = function () {
 };
 
 var topMenu = function (isSpread) {
-	console.log(isSpread);
 	var $body = $('body');
 	var $topMenuBtn = $(".menu > a");
 	var $topMenu = $(".top-menu");
@@ -47,7 +46,7 @@ var topMenu = function (isSpread) {
 	})
 
 	$mask.on("click", function () {
-		$topMenu.animate({left: "-=1000px"});
+		$topMenu.animate({left: "-=1000px"}, "linear");
 		$mask.fadeOut();
 		isSpread = false;
 		affixScrollY(isSpread);
@@ -55,7 +54,7 @@ var topMenu = function (isSpread) {
 
 	$close.on("click", function () {
 		$mask.fadeOut();
-		$topMenu.animate({left: "-=1000px"});
+		$topMenu.animate({left: "-=1000px"}, 400);
 		isSpread = false;
 		affixScrollY(isSpread);
 	})
